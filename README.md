@@ -1,4 +1,4 @@
-### Hi, I'm Lan 👋
+### Hi, I'm Bluesky 👋
 
 I'm a master's student at USTC working on AI for Science and LLM agents.
 
