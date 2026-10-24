@@ -1,16 +1,35 @@
-# 你好，我是兰天
+# Selected Work
 
-中科大硕士在读，2027 年毕业，本科学的是统计学。
+## Agent Systems
 
-在快手做过广告风控和申诉审核 Agent，在中科院自动化所做过基因组大模型相关工作。这里放一些项目，也准备慢慢整理读代码和做实验的记录。
+### [JevGate](https://github.com/skyblue-ustc/JEV-gate)
 
-## 项目
+Agent 工具调用的审批层。将模型返回的类型化信号交给确定性策略，路由至允许执行、人工确认或阻止；提供 JEV 与生成式 LLM 的响应、延迟和费用对比。
 
-- [JevGate](https://github.com/skyblue-ustc/JEV-gate)：给 Agent 的工具调用加一层审批。[演示](https://jev-guard-studio.citrus-grove-3996.chatgpt.site/)
-- [Efficient-VeRL-Agent](https://github.com/skyblue-ustc/Efficient-VeRL-Agent)：基于 VeRL 的强化学习复现和实验。
-- [Complex-Doc-RAG](https://github.com/skyblue-ustc/Complex-Doc-RAG)：尝试处理带表格的复杂 PDF，做解析和检索问答。
-- [StructIRES](https://github.com/skyblue-ustc/StructIRES)：IRES RNA 相关的科研项目。
+[Code](https://github.com/skyblue-ustc/JEV-gate) · [Demo](https://jev-guard-studio.citrus-grove-3996.chatgpt.site/)
 
-## 笔记
+### [Complex-Doc-RAG](https://github.com/skyblue-ustc/Complex-Doc-RAG)
 
-想养成每周写一点技术复盘的习惯，记下遇到的问题、试过的方法和没想明白的地方。目前先放了一个[复盘模板](https://github.com/skyblue-ustc/skyblue-ustc/blob/main/notes/README.md)，后面慢慢补。
+面向复杂 PDF 和表格的检索问答项目，使用 Docling 解析文档结构，并接入 DeepSeek 完成回答生成。
+
+[Code](https://github.com/skyblue-ustc/Complex-Doc-RAG)
+
+## Reinforcement Learning
+
+### [Efficient-VeRL-Agent](https://github.com/skyblue-ustc/Efficient-VeRL-Agent)
+
+基于 VeRL 的强化学习复现与实验。包含 PPO、GRPO 和 GiGPO 相关代码与训练脚本，关注 ALFWorld 长程任务及信用分配。
+
+[Code](https://github.com/skyblue-ustc/Efficient-VeRL-Agent)
+
+## Research
+
+### [StructIRES](https://github.com/skyblue-ustc/StructIRES)
+
+IRES RNA 计算研究。公开材料包括识别与候选筛选实验、基线对照、数据划分审计和可复现结果快照。
+
+[Code & Reproducibility](https://github.com/skyblue-ustc/StructIRES)
+
+---
+
+[Technical notes](https://github.com/skyblue-ustc/skyblue-ustc/tree/main/notes) · 代码阅读与实验复盘（模板已建立）
